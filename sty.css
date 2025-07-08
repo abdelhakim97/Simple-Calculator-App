@@ -1,0 +1,68 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.cal{
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.cal table{
+    border-collapse: collapse;
+}
+.cal table td{
+    border: 1px solid   white;
+   
+    padding: 5px;
+}
+button{
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid black;
+}
+#tabText{
+    width: 97%;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.main_cal{
+    border: 1px solid;
+    width: 228px;
+    padding: 7px;
+    /* padding-top: 50px; */
+    border-radius: 15px;
+    padding-bottom: 15px;
+}
+
+.title_cal{
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+.main_cal,table{
+background-color: #1c1f26;
+}
+#OFF,#ON{
+    padding: 5px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+}
+
+#MC,#MR,#MS,#sin
+,#COS,#tan,#M,#bory,
+#Exp,#log,#ln,#sqrt,#division,#pourcent,
+#multiplication,#inverse,#moins,#carre,#plus,
+#CE
+{
+background-color: #003366;
+color: white;
+}
+#go{
+    padding: 5px;
+    background-color: red;
+    color: white; 
+}

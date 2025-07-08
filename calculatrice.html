@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mon super projet</title>
+    <link rel="stylesheet" type="text/css" href="calculatrice.css">
+    <script src="jscon.js"></script>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="sty.css">
+
+</head>
+
+<body>
+
+    <div class="cal">
+        <main class="main_cal">
+            <p class="title_cal"> &nbsp; KK-328A <br> ELECTRONIC CALCULATOR</p>
+            <table>
+                <tr>
+                    <td colspan="5"><input id="tabText" type="text"></td>
+                </tr>
+                <tr>
+                    <td><button onclick="quoi()" id="MC">MC</button></td>
+                    <td><button onclick="memory(this)" id="MR">MR</button></td>
+                    <td><button onclick="memory(this)" id="MS">MS</button></td>
+                    <td><button onclick="Off()" id="OFF">OFF</button></td>
+                    <td><button onclick="On();" id="ON" type="reset">ON</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="sin()" id="sin">sin</button></td>
+                    <td><button onclick="cos()" id="COS">COS</button></td>
+                    <td><button onclick="tan()" id="tan">tan</button></td>
+                    <td><button onclick="memory(this)" id="M">M+</button></td>
+                    <td><button onclick="quoi();" id="CE" type="reset">CE</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="unaun();" id="bory">←</button></td>
+
+                    <td><button onclick="expo();" value="Exp" id="Exp">Exp</button></td>
+                    <td><button onclick="loga();" value="log" id="log">log</button></td>
+
+                    <td><button onclick="neperien();" value="ln" id="ln">ln</button></td>
+                    <td><button onclick="racine();" value="√" id="sqrt"> √x </button></td>
+                </tr>
+                <tr class="num">
+                    <td><button onclick="getvaleur(this);" value="7" id="sept">7</button></td>
+                    <td><button onclick="getvaleur(this);" value="8" id="huit">8</button></td>
+                    <td><button onclick="getvaleur(this);" value="9" id="neuf">9</button></td>
+                    <td><button onclick="getvaleur(this);" value="/" id="division">&divide</button></td>
+                    <td><button onclick="getvaleur(this);" value="%" id="pourcent">%</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getvaleur(this);" value="4" id="quatre">4</button></td>
+                    <td><button onclick="getvaleur(this);" value="5" id="cinq">5</button></td>
+                    <td><button onclick="getvaleur(this);" value="6" id="six">6</button></td>
+                    <td><button onclick="getvaleur(this);" value="*" id="multiplication">X</button></td>
+                    <td><button onclick="inverse();" id="inverse">1/x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="getvaleur(this);" value="1" id="un">1</button></td>
+                    <td><button onclick="getvaleur(this);" value="2" id="deux">2</button></td>
+                    <td><button onclick="getvaleur(this);" value="3" id="trois">3</button></td>
+                    <td><button onclick="getvaleur(this);" value="-" id="moins">-</button></td>
+                    <td><button onclick="carre();" value="" id="carre">x²</button></td>
+                </tr>
+                <tr>
+                    <td id="zero"><button onclick="getvaleur(this);" value="0" id="zero">0</button></td>
+                    <td><button onclick="getvaleur(this);" value="." id="virgule">.</button></td>
+                    <td><button onclick="effacer();" value="" id="effacer">C</button></td>
+                    <td><button onclick="getvaleur(this);" value="+" id="plus">+</button></td>
+                    <td><button onclick="calcul();" id="go">=</button></td>
+
+                </tr>
+            </table>
+        </main>
+    </div>
+</body>
+
+</html>
