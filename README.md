@@ -19,10 +19,10 @@ It allows users to perform simple arithmetic operations like addition, subtracti
 ## 🚀 Live Demo
 
 You can try the app here:  
-👉 [https://abdelhakim97.github.io/simple-calculator-app/](https://abdelhakim97.github.io/simple-calculator-app/)
+👉 [https://abdelhakim97.github.io/Simple-Calculator-App/](https://abdelhakim97.github.io/Simple-Calculator-App/)
 
 ## 📂 How to Use Locally
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/abdelhakim97/simple-calculator-app.git
+   git clone https://github.com/abdelhakim97/Simple-Calculator-App.git
